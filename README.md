@@ -62,7 +62,7 @@ Este é um projeto simples de aplicação de chat utilizando Spring Boot e Thyme
  - Exibir mensagens do chat: O chat exibe uma lista de mensagens enviadas.
  - Enviar mensagens: Os usuários podem enviar mensagens utilizando um formulário.
 
-##cContribuição
+## Contribuição
 
 1 Se desejar contribuir, siga os seguintes passos:
 
