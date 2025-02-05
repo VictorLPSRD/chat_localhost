@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>ody>
+    <h1>Chat</h1>
+    <di
+    <title>Chat</title>
+</head>
+<bv>
+    <ul>
+        <li th:each="message : ${messages}">
+            <strong th:text="${message.sender} + ':'"></strong>
+            <span th:text="${message.content}"></span>
+        </li>
+    </ul>
+</div>
+<form action="/send" method="post">
+    <input type="text" name="sender" placeholder="Seu nome" required>
+    <input type="text" name="content" placeholder="Sua mensagem" required>
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>
